@@ -22,6 +22,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          VITE_BASE_NAME: '/mtm6404-seuss-treasury'
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
