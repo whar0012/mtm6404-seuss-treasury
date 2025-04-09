@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  background: #eee;
+  gap: 16px;
+  padding: 8px;
+}
+
+.brand {
+  font-weight: bold;
+}
+
+.navigation a,
+.navigation a:active,
+.navigation a:visited {
+  text-decoration: none;
+  color: #444;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}

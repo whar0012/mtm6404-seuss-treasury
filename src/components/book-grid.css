@@ -1,0 +1,9 @@
+#book-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.book-grid-item img {
+  width: 100%;
+}

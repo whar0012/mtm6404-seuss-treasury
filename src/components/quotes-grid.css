@@ -1,0 +1,22 @@
+#quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.quotes-grid-item {
+  border: 1px solid #eee;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quotes-grid-item p {
+  margin: 0;
+}
+
+.quotes-grid-item span {
+  color: #666;
+  font-size: 14px;
+}
